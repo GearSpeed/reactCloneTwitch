@@ -59,9 +59,9 @@ export default function DirectoryItem(){
             return(
                 <>
                     <div className='flex flex-col'> 
-                        <img className='h-[263.6px] w-[197.7px]' src={item.img} alt="" />
-                            <span className='font-semibold'>{item.state}</span>
-                        <span className='text-[#ADADB8] text-sm'>{item.viewers} espectadores</span>
+                        <img className='h-[263.6px] w-[197.7px] cursor-pointer' src={item.img} alt="" />
+                            <span className='font-semibold hover:text-[#A970FF] cursor-pointer'>{item.state}</span>
+                        <span className='text-[#ADADB8] text-sm cursor-pointer'>{item.viewers} espectadores</span>
                     </div>
                 </>
             )
